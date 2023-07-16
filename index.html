@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=0.8">
+        <title>ChallengeONE-Decodificador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <br> 
+        <h1>Challenge ONE-Decodificador de Texto</h1><br>
+        <p><a href="https://www.alura.com.br">Alura</a> Programação T5 - Lucas Lins </p>
+   
+    </head>
+
+    <body>
+        <br>
+        <main>
+            <table>
+                <tr>
+                    <td align = "center">
+                        <label for="0">Digite o texto a ser codificado</label><br>
+                        <textarea  name="1" id="0" rows="5 rem" cols="35"></textarea> <br/>
+                        <input type="button" value="Criptografar Texto" onclick="Cripto();"/>
+                    </td>
+
+                    <td align = "center">
+                        <label for="1">Texto codificado ou cole seu código aqui</label><br>
+                        <textarea name = "2" id = "1" rows = "5" cols="35"></textarea> <br/>
+                        <input type = "button"  value = "Decodificar o Texto" onclick = "Descry();"/ >
+                        <input type="button" value="Copiar Texto" onclick="copiarTexto();"/>
+                       
+                    </td>
+
+                    <td align = "center">
+                        <label for="2"> Texto decodificado</label><br>
+                        <textarea  name = "3" id = "2" rows = "5" cols="35" ></textarea> <br/>
+                        <input type="button"  value="Reset" onclick="Clear();"/>
+                    </td>
+                </tr>
+
+            </table>
+     
+            <script src="decodificador.js"> </script>
+
+        </main>    
+    </body> 
+
+    <footer>
+        <p class="copyright">&copy; Challenge ONE Programação T5 - 2023</p>
+    </footer>
+
+</html>   

@@ -1,0 +1,70 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('AluraOne.jpg');
+	background-repeat: no-repeat;
+	background-attachment: cover;
+}
+
+h1{
+	text-align: center;
+	color: #1E90FF;
+	font-weight:bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+p {
+	text-align: center;
+	color: #1E90FF;
+	font-size: 20px;
+}
+
+table {
+	width: 100%;
+	border: 5;
+	margin: 5px 0 5px;
+	cellspacing="30";
+	cellpadding="120";
+}
+
+textarea {
+    resize: none;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px #000080;
+}
+
+tr, td{
+	display: block;
+	margin: 0 0 20px;
+	color: white;
+	font-style: italic;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+input[type="button"] {
+ 	font-size: 14px;
+ 	width: 10%;
+ 	padding: 10px 0;
+ 	background: linear-gradient(40deg, DarkBlue, blue, DarkBlue, blue);
+ 	color: white;
+ 	border: none;
+ 	border-radius: 5px;
+ 	cursor: pointer;
+}
+ 
+.copyright {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+@media screen and (max-width:480px ) {
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-repeat: no-repeat;
+	width: auto;
+}
+
